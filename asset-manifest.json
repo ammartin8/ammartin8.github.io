@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/tech-developer-portfolio/static/css/main.5d8448a3.chunk.css",
+    "main.js": "/tech-developer-portfolio/static/js/main.32437eb8.chunk.js",
+    "main.js.map": "/tech-developer-portfolio/static/js/main.32437eb8.chunk.js.map",
+    "runtime-main.js": "/tech-developer-portfolio/static/js/runtime-main.2dd131a3.js",
+    "runtime-main.js.map": "/tech-developer-portfolio/static/js/runtime-main.2dd131a3.js.map",
+    "static/css/2.829c9cb5.chunk.css": "/tech-developer-portfolio/static/css/2.829c9cb5.chunk.css",
+    "static/js/2.4f1ebd56.chunk.js": "/tech-developer-portfolio/static/js/2.4f1ebd56.chunk.js",
+    "static/js/2.4f1ebd56.chunk.js.map": "/tech-developer-portfolio/static/js/2.4f1ebd56.chunk.js.map",
+    "index.html": "/tech-developer-portfolio/index.html",
+    "precache-manifest.7ff18042511e636a05b6c7ce4e02e3f4.js": "/tech-developer-portfolio/precache-manifest.7ff18042511e636a05b6c7ce4e02e3f4.js",
+    "service-worker.js": "/tech-developer-portfolio/service-worker.js",
+    "static/css/2.829c9cb5.chunk.css.map": "/tech-developer-portfolio/static/css/2.829c9cb5.chunk.css.map",
+    "static/css/main.5d8448a3.chunk.css.map": "/tech-developer-portfolio/static/css/main.5d8448a3.chunk.css.map",
+    "static/js/2.4f1ebd56.chunk.js.LICENSE.txt": "/tech-developer-portfolio/static/js/2.4f1ebd56.chunk.js.LICENSE.txt",
+    "static/media/illustrated_profile.svg": "/tech-developer-portfolio/static/media/illustrated_profile.74834f1a.svg",
+    "static/media/App.css": "/tech-developer-portfolio/static/media/jumbo_background_final.31bf2fcb.jpg",
+    "static/media/musicLandingSite.png": "/tech-developer-portfolio/static/media/musicLandingSite.14a0d5c5.png",
+    "static/media/photoPortfolioSite.png": "/tech-developer-portfolio/static/media/photoPortfolioSite.6303fe27.png",
+    "static/media/placeimg_864_576_tech.jpg": "/tech-developer-portfolio/static/media/placeimg_864_576_tech.1fc691a8.jpg",
+    "static/media/techLandingSite.png": "/tech-developer-portfolio/static/media/techLandingSite.099b561c.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2dd131a3.js",
+    "static/css/2.829c9cb5.chunk.css",
+    "static/js/2.4f1ebd56.chunk.js",
+    "static/css/main.5d8448a3.chunk.css",
+    "static/js/main.32437eb8.chunk.js"
+  ]
+}
