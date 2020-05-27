@@ -7,7 +7,7 @@ import musicLandingSite from "../images/musicLandingSite.png";
 import moreProjects from "../images/placeimg_864_576_tech.jpg";
 
 let projectlink1 = "http://amahmartin.me/tech-landing-page/";
-let projectlink2 = "http://amahmartin.me/photographyPortfolio/";
+let projectlink2 = "https://amahmartin.me/photography-portfolio";
 let projectlink3 = "http://amahmartin.me/music-landing-page/";
 let projectlink4 = "https://github.com/ammartin8";
 
