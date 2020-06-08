@@ -24,7 +24,9 @@ let backEndContent = [
   "SQL",
   "REST APIs",
   "Python",
-  "Node JS"
+  "Node JS",
+  "Redis",
+  "Linux OS"
 ];
 let dataListItems = dataContent.map((item) => <li>{item}</li>);
 let devListItems = devContent.map((item) => <li>{item}</li>);

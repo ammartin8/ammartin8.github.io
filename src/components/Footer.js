@@ -1,5 +1,5 @@
 import React from "react";
-
+import brandLogo from "../images/brand_logo.svg";
 import { Container, Row } from "react-bootstrap";
 import { IconContext } from "react-icons";
 import {
@@ -33,7 +33,8 @@ function Footer() {
             alignItems: "center",
           }}
         >
-          <p>Constantly learning and improving, one day at a time.</p>
+          <img className="brand-logo" src={brandLogo} alt="Brand Logo"/>
+          <p style={{paddingTop: "1em"}}>Building creative solutions through data and software development, one day at a time.</p>
         </Row>
         <Row style={{ justifyContent: "center" }}>
           <IconContext.Provider value={{ className: "social-icons" }}>
