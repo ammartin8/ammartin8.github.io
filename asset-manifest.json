@@ -1,22 +1,23 @@
 {
   "files": {
     "main.css": "/static/css/main.3efc1a70.chunk.css",
-    "main.js": "/static/js/main.6aecdae6.chunk.js",
-    "main.js.map": "/static/js/main.6aecdae6.chunk.js.map",
+    "main.js": "/static/js/main.8a542b93.chunk.js",
+    "main.js.map": "/static/js/main.8a542b93.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.f3f540e9.js",
     "runtime-main.js.map": "/static/js/runtime-main.f3f540e9.js.map",
     "static/css/2.829c9cb5.chunk.css": "/static/css/2.829c9cb5.chunk.css",
-    "static/js/2.e5159e3a.chunk.js": "/static/js/2.e5159e3a.chunk.js",
-    "static/js/2.e5159e3a.chunk.js.map": "/static/js/2.e5159e3a.chunk.js.map",
+    "static/js/2.52b9c111.chunk.js": "/static/js/2.52b9c111.chunk.js",
+    "static/js/2.52b9c111.chunk.js.map": "/static/js/2.52b9c111.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.d35b6d275bc74cea278b09ac61e7c72a.js": "/precache-manifest.d35b6d275bc74cea278b09ac61e7c72a.js",
+    "precache-manifest.3dd571f8a184950925028ac48b6db88a.js": "/precache-manifest.3dd571f8a184950925028ac48b6db88a.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.829c9cb5.chunk.css.map": "/static/css/2.829c9cb5.chunk.css.map",
     "static/css/main.3efc1a70.chunk.css.map": "/static/css/main.3efc1a70.chunk.css.map",
-    "static/js/2.e5159e3a.chunk.js.LICENSE.txt": "/static/js/2.e5159e3a.chunk.js.LICENSE.txt",
+    "static/js/2.52b9c111.chunk.js.LICENSE.txt": "/static/js/2.52b9c111.chunk.js.LICENSE.txt",
     "static/media/brand_logo.svg": "/static/media/brand_logo.afd18c08.svg",
     "static/media/illustrated_profile.svg": "/static/media/illustrated_profile.74834f1a.svg",
     "static/media/App.css": "/static/media/jumbo_background_final.31bf2fcb.jpg",
+    "static/media/letsEatApp_crop.JPG": "/static/media/letsEatApp_crop.da4516fa.JPG",
     "static/media/musicLandingSite.png": "/static/media/musicLandingSite.14a0d5c5.png",
     "static/media/photoPortfolioSite.png": "/static/media/photoPortfolioSite.6303fe27.png",
     "static/media/placeimg_864_576_tech.jpg": "/static/media/placeimg_864_576_tech.1fc691a8.jpg",
@@ -25,8 +26,8 @@
   "entrypoints": [
     "static/js/runtime-main.f3f540e9.js",
     "static/css/2.829c9cb5.chunk.css",
-    "static/js/2.e5159e3a.chunk.js",
+    "static/js/2.52b9c111.chunk.js",
     "static/css/main.3efc1a70.chunk.css",
-    "static/js/main.6aecdae6.chunk.js"
+    "static/js/main.8a542b93.chunk.js"
   ]
 }
