@@ -4,12 +4,14 @@ import { Container, Row } from "react-bootstrap";
 import techLandingSite from "../images/techLandingSite.png";
 import photoPortfolioSite from "../images/photoPortfolioSite.png";
 import musicLandingSite from "../images/musicLandingSite.png";
+import letsEatAppPic from "../images/letsEatApp_crop.JPG";
 import moreProjects from "../images/placeimg_864_576_tech.jpg";
 
 let projectlink1 = "http://amahmartin.me/tech-landing-page/";
 let projectlink2 = "https://amahmartin.me/photography-portfolio";
 let projectlink3 = "http://amahmartin.me/music-landing-page/";
-let projectlink4 = "https://github.com/ammartin8";
+let projectlink4 = "https://github.com/ammartin8/lets-eat-app";
+let projectlink5 = "https://github.com/ammartin8";
 
 
 function ProjectSection() {
@@ -26,7 +28,8 @@ function ProjectSection() {
         <Project projectlink={projectlink1} projectimg={techLandingSite}/>
         <Project projectlink={projectlink2} projectimg={photoPortfolioSite}/>
         <Project projectlink={projectlink3} projectimg={musicLandingSite}/>
-        <Project projectlink={projectlink4} projectimg={moreProjects}/>
+        <Project projectlink={projectlink4} projectimg={letsEatAppPic}/>
+        <Project projectlink={projectlink5} projectimg={moreProjects}/>
       </Row>
     </Container>
   );

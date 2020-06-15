@@ -31,10 +31,10 @@ function Header() {
             style={{ maxWidth: "20em", minWidth: "15em" }}
           />
           <h1 className="my-0" style={{ fontWeight: "500" }}>
-            Business Intelligence Developer
+            Front-End Developer
           </h1>
           <p className="my-0" style={{ fontSize: "1.5em", fontWeight: "300" }}>
-            Hello, World. My name is Amah and I am a Business Intelligence Developer with a passion to
+            Hello, World. My name is Amah and I am a Front-End Developer with a passion to
             build solutions that makes our world a better place. <br />{" "}
             <FcGlobe className="globeIcon" />
           </p>
