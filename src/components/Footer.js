@@ -66,14 +66,14 @@ function Footer() {
         }}
       >
         <Row style={{ justifyContent: "center" }}>
-          <p>Crafted with {<FaHeart />} by Me, Amah</p>
+          <p>Crafted with {<FaHeart />} by Me</p>
         </Row>
         <Row style={{ justifyContent: "center" }}>
           <p>{<FaCopyright />} 2020</p>
         </Row>
         <Row style={{ justifyContent: "center" }}>
           <p>
-            Made with {<FaReact />} & {<FaBootstrap />}{" "}
+            Made with {<FaReact />} React & {<FaBootstrap />} Bootstrap{" "}
           </p>
         </Row>
       </Container>

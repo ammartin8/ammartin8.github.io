@@ -3,7 +3,7 @@ import illustrated_profile from "../images/illustrated_profile.svg";
 
 import { Image, Container } from "react-bootstrap";
 import { FaChevronDown } from "react-icons/fa";
-import { FcGlobe } from "react-icons/fc";
+import {  } from "react-icons/fc";
 
 function Header() {
   return (
@@ -28,7 +28,8 @@ function Header() {
           <Image
             src={illustrated_profile}
             alt="Profile"
-            style={{ maxWidth: "20em", minWidth: "15em" }}
+            style={{ maxWidth: "20em" }}
+            fluid
           />
           <h1 className="my-0" style={{ fontWeight: "500" }}>
             Front-End Developer
@@ -36,7 +37,6 @@ function Header() {
           <p className="my-0" style={{ fontSize: "1.5em", fontWeight: "300" }}>
             Hello, World. My name is Amah and I am a Front-End Developer with a passion to
             build solutions that makes our world a better place. <br />{" "}
-            <FcGlobe className="globeIcon" />
           </p>
           <div
             className="d-flex"

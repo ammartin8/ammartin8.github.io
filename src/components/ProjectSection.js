@@ -13,6 +13,7 @@ let projectlink3 = "http://amahmartin.me/music-landing-page/";
 let projectlink4 = "https://github.com/ammartin8/lets-eat-app";
 let projectlink5 = "https://github.com/ammartin8";
 
+/*TODO: Set a min width for cards so text doesn't go outside the box*/
 
 function ProjectSection() {
   return (

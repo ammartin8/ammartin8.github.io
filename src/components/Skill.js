@@ -9,12 +9,12 @@ function Skill(props) {
     <Col
       xs={12}
       md={4}
-      className="d-flex"
-      style={{ width: "100%", height: "35em", justifyContent: "space-around" }}
+      className="d-flex my-3"
+      style={{ width: "90rem", height: "35em", justifyContent: "space-around" }}
     >
       <Card
-        className="mx-1 my-1 text-center"
-        style={{ height: "34em", maxWidth: "25em" }}
+        className="mx-1 text-center skill-card"
+        style={{ height: "100%", maxWidth: "25em" }}
       >
         <Card.Header style={{minHeight: "4em"}}>{props.header}</Card.Header>
         <Card.Body>
