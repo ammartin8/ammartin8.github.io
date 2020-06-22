@@ -10,18 +10,18 @@ function Skill(props) {
       xs={12}
       md={4}
       className="d-flex my-3"
-      style={{ width: "90rem", height: "35em", justifyContent: "space-around" }}
+      style={{ height: "40em", justifyContent: "space-around" }}
     >
       <Card
         className="mx-1 text-center skill-card"
-        style={{ height: "100%", maxWidth: "25em" }}
+        style={{ height: "40em", maxWidth: "25em" }}
       >
         <Card.Header style={{minHeight: "4em"}}>{props.header}</Card.Header>
         <Card.Body>
-          <Row style={{ flexDirection: "column", height: "15em" }}>
+          <Row style={{ flexDirection: "column", minHeight: "18em", maxHeight: "18em" }}>
             <Card.Title>
               <p>Techincal Skills</p>
-              <span>{props.imageIcon}</span>
+              <span style={{fontSize: "2em"}}>{props.imageIcon}</span>
             </Card.Title>
             <Card.Text>
               <ul>{props.content}</ul>

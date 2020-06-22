@@ -15,8 +15,9 @@ function CalltoAction() {
           Whether it's designing an unique logo brand for your business,
           providing feedback to better enhance your website and gain new
           customers or bringing your idea to life, it is my goal to make your
-          business goals a reality. <br /> <br /> If you would like to get in
-          touch with me, send me an email at
+          business goals a reality. <br />
+          Interested in working together? <br />
+          Get in touch with me by sending me an email at
         </p>
         <p style={{ fontWeight: "400" }}>ammartin8249@gmail.com</p>
         <a href="mailto:ammartin8249@gmail.com">

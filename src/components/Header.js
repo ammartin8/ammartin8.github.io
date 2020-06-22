@@ -31,7 +31,7 @@ function Header() {
             style={{ maxWidth: "20em" }}
             fluid
           />
-          <h1 className="my-0" style={{ fontWeight: "500" }}>
+          <h1 className="my-3" style={{ fontWeight: "500" }}>
             Front-End Developer
           </h1>
           <p className="my-0" style={{ fontSize: "1.5em", fontWeight: "300" }}>
