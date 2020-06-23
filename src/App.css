@@ -114,20 +114,22 @@ a:hover {
 /* Navbar Styling*/
 .brand-logo {
     max-width: 2.5em;
-    margin-right: 1em; 
+    margin-right: 1em;
 }
 
 /*Skill Styling*/
-.skill-card {
-    box-shadow: 10px 10px 10px 4px rgb(150, 145, 145, .5) ;
+.skill-card,
+.project-card {
+    box-shadow: 10px 10px 10px 4px rgb(150, 145, 145, .5);
     border: none;
 }
 
 .card-header {
     background-color: rgb(53, 17, 87);
-    
+
     color: #fff;
 }
+
 
 /*Footer Styling*/
 .social-icons {

@@ -19,11 +19,19 @@ let projecttitle3 = "Music Marketing Landing Page";
 let projecttitle4 = "Let's Eat! Restaurant App";
 let projecttitle5 = "More Projects";
 
-/*TODO: Set a min width for cards so text doesn't go outside the box*/
+let projectdesc1 = "A Video Landing Page built with HTML, CSS, and Javascript";
+let projectdesc2 =
+  "A Photography Portfolio Website built with Bootstrap, jQuery";
+let projectdesc3 =
+  "An Interactive Music Landing Page built with HTML, CSS, Javascript";
+let projectdesc4 =
+  "An application that allows you to search for restaurants by city. Built with React JS, Bootstrap, and REST API";
+let projectdesc5 = "Want to view more? Click to go to my GitHub Account";
 
 function ProjectSection() {
   return (
     <Container
+      fluid
       id="portfolioSection"
       className="d-flex my-5"
       style={{ flexDirection: "column", justifyContent: "center" }}
@@ -32,11 +40,36 @@ function ProjectSection() {
         <p>Recent Portfolio Projects</p>
       </Row>
       <Row className="d-flex" style={{ justifyContent: "center" }}>
-        <Project projectlink={projectlink1} projectimg={techLandingSite} projecttitle={projecttitle1}/>
-        <Project projectlink={projectlink2} projectimg={photoPortfolioSite} projecttitle={projecttitle2}/>
-        <Project projectlink={projectlink3} projectimg={musicLandingSite} projecttitle={projecttitle3}/>
-        <Project projectlink={projectlink4} projectimg={letsEatAppPic} projecttitle={projecttitle4}/>
-        <Project projectlink={projectlink5} projectimg={moreProjects} projecttitle={projecttitle5}/>
+        <Project
+          projectlink={projectlink1}
+          projectimg={techLandingSite}
+          projecttitle={projecttitle1}
+          projectdesc={projectdesc1}
+        />
+        <Project
+          projectlink={projectlink2}
+          projectimg={photoPortfolioSite}
+          projecttitle={projecttitle2}
+          projectdesc={projectdesc2}
+        />
+        <Project
+          projectlink={projectlink3}
+          projectimg={musicLandingSite}
+          projecttitle={projecttitle3}
+          projectdesc={projectdesc3}
+        />
+        <Project
+          projectlink={projectlink4}
+          projectimg={letsEatAppPic}
+          projecttitle={projecttitle4}
+          projectdesc={projectdesc4}
+        />
+        <Project
+          projectlink={projectlink5}
+          projectimg={moreProjects}
+          projecttitle={projecttitle5}
+          projectdesc={projectdesc5}
+        />
       </Row>
     </Container>
   );
