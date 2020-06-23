@@ -13,6 +13,12 @@ let projectlink3 = "http://amahmartin.me/music-landing-page/";
 let projectlink4 = "https://github.com/ammartin8/lets-eat-app";
 let projectlink5 = "https://github.com/ammartin8";
 
+let projecttitle1 = "Online Tech Form Landing Page";
+let projecttitle2 = "Mellow A Photography Portfolio Site";
+let projecttitle3 = "Music Marketing Landing Page";
+let projecttitle4 = "Let's Eat! Restaurant App";
+let projecttitle5 = "More Projects";
+
 /*TODO: Set a min width for cards so text doesn't go outside the box*/
 
 function ProjectSection() {
@@ -26,11 +32,11 @@ function ProjectSection() {
         <p>Recent Portfolio Projects</p>
       </Row>
       <Row className="d-flex" style={{ justifyContent: "center" }}>
-        <Project projectlink={projectlink1} projectimg={techLandingSite}/>
-        <Project projectlink={projectlink2} projectimg={photoPortfolioSite}/>
-        <Project projectlink={projectlink3} projectimg={musicLandingSite}/>
-        <Project projectlink={projectlink4} projectimg={letsEatAppPic}/>
-        <Project projectlink={projectlink5} projectimg={moreProjects}/>
+        <Project projectlink={projectlink1} projectimg={techLandingSite} projecttitle={projecttitle1}/>
+        <Project projectlink={projectlink2} projectimg={photoPortfolioSite} projecttitle={projecttitle2}/>
+        <Project projectlink={projectlink3} projectimg={musicLandingSite} projecttitle={projecttitle3}/>
+        <Project projectlink={projectlink4} projectimg={letsEatAppPic} projecttitle={projecttitle4}/>
+        <Project projectlink={projectlink5} projectimg={moreProjects} projecttitle={projecttitle5}/>
       </Row>
     </Container>
   );
