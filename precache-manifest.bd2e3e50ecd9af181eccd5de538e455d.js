@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cbd7a2d38fbde28d78b5a2cd8ddeda0f",
+    "revision": "e30ca0e7d0ad6c7e1c32e69a19e98fe2",
     "url": "/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.829c9cb5.chunk.css"
   },
   {
-    "revision": "b3c2af22a32185f4260b",
+    "revision": "9e426d8be30b68ec8d41",
     "url": "/static/css/main.ce374dee.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.856cec62.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b3c2af22a32185f4260b",
-    "url": "/static/js/main.d65e32a6.chunk.js"
+    "revision": "9e426d8be30b68ec8d41",
+    "url": "/static/js/main.6669a505.chunk.js"
   },
   {
     "revision": "8e0d6f1bd75f47696a88",
@@ -56,7 +56,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/placeimg_864_576_tech.1fc691a8.jpg"
   },
   {
-    "revision": "099b561c35ce378f1c471bc71a92a356",
-    "url": "/static/media/techLandingSite.099b561c.png"
+    "revision": "797c317d2d1c8f46945bd3e2dc55e17b",
+    "url": "/static/media/pro-land-page.797c317d.png"
   }
 ]);
