@@ -1,10 +1,10 @@
-# Amah Martin | Business Intelligence Deverloper
+# Amah Martin | Front-End Developer
 
 ***
 
 > Author: Amah Martin
 >
-> Last Updated: 6-8-2020
+> Last Updated: 7-30-2020
 
 ## Table of Contents
 

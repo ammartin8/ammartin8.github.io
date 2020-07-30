@@ -1,25 +1,25 @@
 import React from "react";
 import Project from "./Project";
 import { Container, Row } from "react-bootstrap";
-import techLandingSite from "../images/techLandingSite.png";
+import productLandingSite from "../images/pro-land-page.png";
 import photoPortfolioSite from "../images/photoPortfolioSite.png";
 import musicLandingSite from "../images/musicLandingSite.png";
 import letsEatAppPic from "../images/letsEatApp_crop.JPG";
 import moreProjects from "../images/placeimg_864_576_tech.jpg";
 
-let projectlink1 = "http://amahmartin.me/tech-landing-page/";
+let projectlink1 = "http://amahmartin.me/jt-travel-product-landing-page/";
 let projectlink2 = "https://amahmartin.me/photography-portfolio";
 let projectlink3 = "http://amahmartin.me/music-landing-page/";
 let projectlink4 = "https://github.com/ammartin8/lets-eat-app";
 let projectlink5 = "https://github.com/ammartin8";
 
-let projecttitle1 = "Online Tech Form Landing Page";
+let projecttitle1 = "Japan Travel Agency Landing Page";
 let projecttitle2 = "Mellow A Photography Portfolio Site";
 let projecttitle3 = "Music Marketing Landing Page";
 let projecttitle4 = "Let's Eat! Restaurant App";
 let projecttitle5 = "More Projects";
 
-let projectdesc1 = "A Video Landing Page built with HTML, CSS, and Javascript";
+let projectdesc1 = "A Professional Web Responsive Product Landing Page using HTML, CSS, JavaScript";
 let projectdesc2 =
   "A Photography Portfolio Website built with Bootstrap, jQuery";
 let projectdesc3 =
@@ -42,7 +42,7 @@ function ProjectSection() {
       <Row className="d-flex" style={{ justifyContent: "center" }}>
         <Project
           projectlink={projectlink1}
-          projectimg={techLandingSite}
+          projectimg={productLandingSite}
           projecttitle={projecttitle1}
           projectdesc={projectdesc1}
         />
