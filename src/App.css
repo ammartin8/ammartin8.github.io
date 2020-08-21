@@ -117,6 +117,32 @@ a:hover {
     margin-right: 1em;
 }
 
+.nav-link {
+    min-width: 6em;
+}
+/*Project Styling*/
+.card-content-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.project-button {
+    width: 10em;
+    height: 2.5em;
+    background-color: rgb(59, 61, 61);
+    color: #fff;
+    border-radius: 5px 5px;
+    text-decoration: none;
+    font-weight: 400;
+    padding: .5em;
+    justify-self: flex-end;   
+}
+
+.project-button:hover {
+    background-color: rgb(99, 98, 100);
+    color: #fff;
+}
 /*Skill Styling*/
 .skill-card,
 .project-card {

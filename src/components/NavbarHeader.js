@@ -28,9 +28,9 @@ function NavbarHeader() {
         <Navbar.Collapse id="responsive-navbar-nav" style={{ justifyContent: "end" }}>
           <Col xs={6} style={{alignSelf: "flex-end"}}>
             <Nav style={{ justifyContent: "end" }}>
-              <Nav.Link href="#portfolioSection">Portfolio</Nav.Link>
-              <Nav.Link href="#skillSection">About</Nav.Link>
-              <Nav.Link href="#hireMe">Hire Me</Nav.Link>
+              <Nav.Link href="#portfolioSection" className="nav-link">Portfolio</Nav.Link>
+              <Nav.Link href="#skillSection" className="nav-link">About</Nav.Link>
+              <Nav.Link href="#hireMe" className="nav-link">Hire Me</Nav.Link>
             </Nav>
           </Col>
         </Navbar.Collapse>
