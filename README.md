@@ -1,4 +1,4 @@
-# Amah Martin | Front-End Developer
+# Amah Martin | Software Developer
 
 ***
 

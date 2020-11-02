@@ -15,8 +15,9 @@ let dataContent = [
 let devContent = [
   "React JS",
   "HTML, CSS, Javascript",
-  "JQuery",
   "Bootstrap Framework",
+  "Figma",
+  "JQuery",
   "Git",
   "Github"
 ];
@@ -24,9 +25,7 @@ let backEndContent = [
   "SQL",
   "REST APIs",
   "Python",
-  "Node JS",
-  "Redis",
-  "Linux OS"
+  "Node JS"
 ];
 let dataListItems = dataContent.map((item) => <li>{item}</li>);
 let devListItems = devContent.map((item) => <li>{item}</li>);

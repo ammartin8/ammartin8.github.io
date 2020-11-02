@@ -32,10 +32,10 @@ function Header() {
             fluid
           />
           <h1 className="my-3" style={{ fontWeight: "500" }}>
-            Front-End Developer
+            Software Developer
           </h1>
           <p className="my-0" style={{ fontSize: "1.5em", fontWeight: "300" }}>
-            Hello, World. My name is Amah and I am a Front-End Developer with a passion to
+            Hello, World. My name is Amah and I am a Developer with a passion to
             build solutions that makes our world a better place. <br />{" "}
           </p>
           <div
