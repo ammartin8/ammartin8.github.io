@@ -10,10 +10,9 @@ function NavbarHeader() {
         collapseOnSelect
         expand="md"
         className="d-flex"
-        variant="dark"
         style={{
           flexDirection: "row",
-          backgroundColor: " rgba(31, 7, 53)",
+          backgroundColor: " rgba(215, 104, 74)",
           width: "100%",
           justifyContent: "space-between"
         }}
@@ -27,7 +26,7 @@ function NavbarHeader() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav" style={{ justifyContent: "end" }}>
           <Col xs={6} style={{alignSelf: "flex-end"}}>
-            <Nav style={{ justifyContent: "end" }}>
+            <Nav style={{ justifyContent: "end", textAlign: "center" }}>
               <Nav.Link href="#portfolioSection" className="nav-link">Portfolio</Nav.Link>
               <Nav.Link href="#skillSection" className="nav-link">About</Nav.Link>
               <Nav.Link href="#hireMe" className="nav-link">Hire Me</Nav.Link>

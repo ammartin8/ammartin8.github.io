@@ -1,9 +1,8 @@
 import React from "react";
-import illustrated_profile from "../images/illustrated_profile.svg";
 
-import { Image, Container } from "react-bootstrap";
+import { Col, Container } from "react-bootstrap";
 import { FaChevronDown } from "react-icons/fa";
-import {  } from "react-icons/fc";
+import {} from "react-icons/fc";
 
 function Header() {
   return (
@@ -14,52 +13,55 @@ function Header() {
         style={{
           justifyContent: "center",
           flexDirection: "column",
-          alignItems: "center",
+          justifyItems: "left",
         }}
       >
-        <Container
-          className="d-flex subheader-container p-4 text-center"
+        <Col
+          xs={10}
+          md={5}
+          lg={5}
+          className="subheader-container p-4"
           style={{
-            flexDirection: "column",
-            justifyContent: "center",
-            alignItems: "center",
+            marginLeft: "1.5em",
           }}
         >
-          <Image
-            src={illustrated_profile}
-            alt="Profile"
-            style={{ maxWidth: "20em" }}
-            fluid
-          />
-          <h1 className="my-3" style={{ fontWeight: "500" }}>
-            Software Developer
-          </h1>
-          <p className="my-0" style={{ fontSize: "1.5em", fontWeight: "300" }}>
-            Hello, World. My name is Amah and I am a Developer with a passion to
-            build solutions that makes our world a better place. <br />{" "}
-          </p>
-          <div
-            className="d-flex"
-            style={{ flexDirection: "column", justifyContent: "center" }}
-          >
-            <a href="#skillSection" style={{ color: "rgb(79, 19, 105)" }}>
-              <p
-                className="m-0 mt-3"
-                style={{
-                  fontSize: "1.3em",
-                  fontWeight: "600",
-                  textDecoration: "none",
-                }}
-              >
-                Learn More
-              </p>
-              <FaChevronDown
-                className="chevronIcon"
-                style={{ fontSize: "1.8em" }}
-              />
-            </a>
+          <div className="d-flex hero-content-section">
+            <h1 className="">
+              <span style={{ fontWeight: "bold", color: "#3B1858" }}>
+                HELLO.&nbsp;
+              </span>
+              <span style={{ fontWeight: "bold", color: "#D7684A" }}>
+                MY NAME <br /> IS AMAH.
+              </span>
+            </h1>
           </div>
-        </Container>
+          <div className="">
+            <p
+              className="my-0"
+              style={{ fontSize: "1.5em", fontWeight: "600", color: "#3B1858" }}
+            >
+              Welcome to my portfolio site. <br />{" "}
+            </p>
+            <div
+              className="d-flex"
+              style={{ flexDirection: "column", justifyContent: "center" }}
+            >
+              <a
+                href="#skillSection"
+                style={{ color: "rgb(79, 19, 105)", textAlign: "center" }}
+              >
+                <FaChevronDown
+                  className="chevronIcon"
+                  style={{
+                    fontSize: "1.8em",
+                    fontWeight: "600",
+                    color: "#D7684A",
+                  }}
+                />
+              </a>
+            </div>
+          </div>
+        </Col>
       </div>
     </div>
   );

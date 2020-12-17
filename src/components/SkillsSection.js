@@ -58,7 +58,7 @@ class SkillsSection extends Component {
     return (
       <>
         <Container id="skillSection"
-          className="d-flex flex-wrap mx-auto px-0 my-5"
+          className="d-flex flex-wrap mx-auto px-0 my-0 "
           style={{
             minWidth: "100%",
             justifyContent: "center",

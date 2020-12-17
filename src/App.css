@@ -61,36 +61,36 @@ a:hover {
 /*Header Styling*/
 .outer-layer-container {
     display: flex;
-    justify-content: center;
-    align-items: center;
     overflow: hidden
 }
 
 .main-header-container {
-    background-image: linear-gradient(black, black), url(./images/jumbo_background_final.jpg);
+    background-image: url(./images/hero-bkg2.png);
     background-size: cover, cover;
-    flex-shrink: 0;
+    background-position: center;
     min-width: 100%;
-    min-height: 100%;
-    background-blend-mode: saturation;
+    min-height: 80vh;
 }
 
 .subheader-container {
-    background: linear-gradient(45deg, rgb(47, 11, 81, .85), rgb(74, 54, 160, .85), rgb(127, 33, 146, .85), rgb(167, 26, 141, .85), rgb(23, 137, 208, .85), rgb(215, 76, 55, .85));
-    min-height: 100vh;
-    min-width: 100%;
+    background-color: rgb(117, 40, 88, .80);
+    border-radius: 5px 5px;
+
 }
 
-.subheader-container>h1,
-.subheader-container>p {
-    color: rgb(245, 233, 233);
+.hero-content-section {
+    align-content: left;
+
 }
 
-@keyframes rotateIt {
-    100% {
-        transform: rotateY(360deg)
-    }
+.hero-content-section h1 {
+    text-align: left;
 }
+
+.hero-content-section p {
+    color: #3B1858;
+}
+
 
 .chevronIcon {
     animation: hoverIt 3s infinite;
@@ -120,6 +120,7 @@ a:hover {
 .nav-link {
     min-width: 6em;
 }
+
 /*Project Styling*/
 .card-content-section {
     display: flex;
@@ -136,13 +137,14 @@ a:hover {
     text-decoration: none;
     font-weight: 400;
     padding: .5em;
-    justify-self: flex-end;   
+    justify-self: flex-end;
 }
 
 .project-button:hover {
     background-color: rgb(99, 98, 100);
     color: #fff;
 }
+
 /*Skill Styling*/
 .skill-card,
 .project-card {
@@ -185,3 +187,12 @@ a:hover {
 .lower-footer-container>div>p {
     margin: 0.5em;
 }
+
+/* @media (max-width: 400px) {
+    .subheader-container {
+        background-color: rgb(117, 40, 88, .80);
+        border-radius: 5px 5px;
+
+
+    }
+} */
