@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f2717489b707d1a1badbb4d50349ba63",
+    "revision": "696482228a5f2271174d4b54419726a3",
     "url": "/index.html"
   },
   {
-    "revision": "d8300f67c554a79f2e91",
+    "revision": "b87e4eba70ca3f4f5397",
     "url": "/static/css/2.829c9cb5.chunk.css"
   },
   {
-    "revision": "6e97451f3b6190971eb7",
-    "url": "/static/css/main.f005385b.chunk.css"
+    "revision": "6543366d76dd29847cbf",
+    "url": "/static/css/main.f3c18bac.chunk.css"
   },
   {
-    "revision": "d8300f67c554a79f2e91",
-    "url": "/static/js/2.6525de0c.chunk.js"
+    "revision": "b87e4eba70ca3f4f5397",
+    "url": "/static/js/2.2270aae4.chunk.js"
   },
   {
     "revision": "5ac48c47bb3912b14c2d8de4f56d5ae8",
-    "url": "/static/js/2.6525de0c.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.2270aae4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6e97451f3b6190971eb7",
-    "url": "/static/js/main.36189831.chunk.js"
+    "revision": "6543366d76dd29847cbf",
+    "url": "/static/js/main.50ce9f88.chunk.js"
   },
   {
     "revision": "8e0d6f1bd75f47696a88",
@@ -32,12 +32,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/brand_logo.afd18c08.svg"
   },
   {
-    "revision": "74834f1a6b1090ad2cef274280fea9b7",
-    "url": "/static/media/illustrated_profile.74834f1a.svg"
-  },
-  {
-    "revision": "31bf2fcbd056ca5e5f0c774f93753e40",
-    "url": "/static/media/jumbo_background_final.31bf2fcb.jpg"
+    "revision": "10a5b29c9509a08d52904b871c9a935b",
+    "url": "/static/media/hero-bkg2.10a5b29c.png"
   },
   {
     "revision": "da4516faef34c0804aaf39de6629d15d",
