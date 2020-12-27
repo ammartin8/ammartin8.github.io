@@ -47,7 +47,7 @@ function Header() {
               style={{ flexDirection: "column", justifyContent: "center" }}
             >
               <a
-                href="#skillSection"
+                href="#aboutSection"
                 style={{ color: "rgb(79, 19, 105)", textAlign: "center" }}
               >
                 <FaChevronDown

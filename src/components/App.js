@@ -5,6 +5,7 @@ import SkillsSection from "./SkillsSection";
 import ProjectSection from "./ProjectSection";
 import Footer from "./Footer";
 import CalltoAction from "./CalltoAction";
+import AboutSection from "./AboutSection";
 
 import "../App.css";
 import "../normalize.css";
@@ -15,6 +16,7 @@ class App extends Component {
       <>
         <NavbarHeader />
         <Header />
+        <AboutSection />
         <SkillsSection />
         <ProjectSection />
         <CalltoAction />

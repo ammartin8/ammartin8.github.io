@@ -28,7 +28,7 @@ function NavbarHeader() {
           <Col xs={6} style={{alignSelf: "flex-end"}}>
             <Nav style={{ justifyContent: "end", textAlign: "center" }}>
               <Nav.Link href="#portfolioSection" className="nav-link">Portfolio</Nav.Link>
-              <Nav.Link href="#skillSection" className="nav-link">About</Nav.Link>
+              <Nav.Link href="#aboutSection" className="nav-link">About</Nav.Link>
               <Nav.Link href="#hireMe" className="nav-link">Hire Me</Nav.Link>
             </Nav>
           </Col>

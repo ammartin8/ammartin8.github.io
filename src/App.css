@@ -32,6 +32,10 @@ a:hover {
     color: rgb(245, 233, 233);
 }
 
+#aboutSection p:first-child {
+    font-size: 1.8em; 
+}
+
 #portfolioSection p {
     font-size: 1.8em;
 }

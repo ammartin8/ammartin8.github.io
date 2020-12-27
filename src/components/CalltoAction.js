@@ -19,8 +19,8 @@ function CalltoAction() {
           Interested in working together? <br />
           Send me an email at
         </p>
-        <p style={{ fontWeight: "400" }}>ammartin8249@gmail.com</p>
-        <a href="mailto:ammartin8249@gmail.com">
+        <p style={{ fontWeight: "400" }}>ammartin8842@gmail.com</p>
+        <a href="mailto:ammartin8842@gmail.com">
           <FaEnvelope style={{ fontSize: "1.8em" }} />
         </a>
       </Row>
