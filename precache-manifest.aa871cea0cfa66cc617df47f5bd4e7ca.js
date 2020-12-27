@@ -1,35 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "696482228a5f2271174d4b54419726a3",
+    "revision": "a6ddad6251fcd9053b1c736944b6dd4c",
     "url": "/index.html"
   },
   {
-    "revision": "b87e4eba70ca3f4f5397",
+    "revision": "aa6486f5700ebc92da0c",
     "url": "/static/css/2.829c9cb5.chunk.css"
   },
   {
-    "revision": "6543366d76dd29847cbf",
-    "url": "/static/css/main.f3c18bac.chunk.css"
+    "revision": "852008e892ef172d66d1",
+    "url": "/static/css/main.0fefb96c.chunk.css"
   },
   {
-    "revision": "b87e4eba70ca3f4f5397",
-    "url": "/static/js/2.2270aae4.chunk.js"
+    "revision": "aa6486f5700ebc92da0c",
+    "url": "/static/js/2.0658fbcc.chunk.js"
   },
   {
     "revision": "5ac48c47bb3912b14c2d8de4f56d5ae8",
-    "url": "/static/js/2.2270aae4.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.0658fbcc.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6543366d76dd29847cbf",
-    "url": "/static/js/main.50ce9f88.chunk.js"
+    "revision": "852008e892ef172d66d1",
+    "url": "/static/js/main.f8a1f67c.chunk.js"
   },
   {
     "revision": "8e0d6f1bd75f47696a88",
     "url": "/static/js/runtime-main.f3f540e9.js"
   },
   {
-    "revision": "afd18c08060c78ad4659c37809947e44",
-    "url": "/static/media/brand_logo.afd18c08.svg"
+    "revision": "a815ab773b76380351ad106e4dab2ed4",
+    "url": "/static/media/brand_logo.a815ab77.svg"
   },
   {
     "revision": "10a5b29c9509a08d52904b871c9a935b",
@@ -50,6 +50,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "797c317d2d1c8f46945bd3e2dc55e17b",
     "url": "/static/media/pro-land-page.797c317d.png"
+  },
+  {
+    "revision": "8c3ebf3a29cfeba9fdb35bfa09e49ccb",
+    "url": "/static/media/profile_pic.8c3ebf3a.png"
   },
   {
     "revision": "550331d08a3f5888653cf3bcdbcadbc4",
