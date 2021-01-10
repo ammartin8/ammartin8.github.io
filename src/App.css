@@ -79,7 +79,7 @@ a:hover {
 .subheader-container {
     background-color: rgb(117, 40, 88, .80);
     border-radius: 5px 5px;
-
+    max-width: 500px;
 }
 
 .hero-content-section {

@@ -12,7 +12,7 @@ function AboutSection() {
     >
       <Row style={{ flexDirection: "column", alignItems: "left" }}>
         <p>About Me</p>
-        <h5 style={{fontWeight: "600"}} className="mb-4">I am a Software Developer that is about data and technology.</h5>
+        <h5 style={{fontWeight: "600"}} className="mb-4">I am a Software Developer that is constantly curious about data and technology.</h5>
       </Row>
       <Row style={{ flexDirection: "row", alignItems: "left" }}>
         <Col lg={4} className="px-4">
