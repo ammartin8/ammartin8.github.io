@@ -24,9 +24,9 @@ function NavbarHeader() {
           </Navbar.Brand>
         </Col>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-        <Navbar.Collapse id="responsive-navbar-nav" style={{ justifyContent: "end" }}>
+        <Navbar.Collapse id="responsive-navbar-nav" style={{ justifyContent: "flex-end" }}>
           <Col xs={6} style={{alignSelf: "flex-end"}}>
-            <Nav style={{ justifyContent: "end", textAlign: "center" }}>
+            <Nav style={{ justifyContent: "flex-end", textAlign: "center" }}>
               <Nav.Link href="#portfolioSection" className="nav-link">Portfolio</Nav.Link>
               <Nav.Link href="#aboutSection" className="nav-link">About</Nav.Link>
               <Nav.Link href="#hireMe" className="nav-link">Hire Me</Nav.Link>

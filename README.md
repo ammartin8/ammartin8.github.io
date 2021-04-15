@@ -1,10 +1,10 @@
-# Amah Martin | Software Developer
+# Amah Martin | Data Specialist | Business Intelligence Engineer
 
 ***
 
 > Author: Amah Martin
 >
-> Last Updated: 7-30-2020
+> Last Updated: 4-15-2021
 
 ## Table of Contents
 

@@ -20,7 +20,7 @@ function Footer() {
         className="upper-footer-container m-0"
         style={{ justifyContent: "center", maxWidth: "100vw" }}
       >
-        <Row style={{ justifyContent: "end" }}>
+        <Row style={{ justifyContent: "flex-end" }}>
           <a href="#root" style={{ color: "rgb(236, 207, 207)" }}>
             <FaChevronUp style={{ fontSize: "1.5em" }} />
           </a>
