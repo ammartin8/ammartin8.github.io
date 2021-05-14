@@ -18,7 +18,7 @@ function CalltoAction() {
         that is mission-driven and values growth, an honest-work culture, 
         and meaningful work. <br /><br />
         Interested in learning more about me or talking about data and code? <br />
-        Let's Chat!
+        Let's Connect!
         </p>
         <p style={{ fontWeight: "600" }}>ammartin8842@gmail.com</p>
         <a href="mailto:ammartin8842@gmail.com">

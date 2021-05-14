@@ -10,6 +10,7 @@ import {
   FaReact,
   FaCopyright,
   FaBootstrap,
+  FaLinkedin
 } from "react-icons/fa";
 
 function Footer() {
@@ -50,6 +51,11 @@ function Footer() {
               <li>
                 <a href="https://github.com/ammartin8" target="_blank" rel="noopener noreferrer">
                   <FaGithub />
+                </a>
+              </li>
+              <li>
+                <a href="https://linkedin.com/in/amahmartin" target="_blank" rel="noopener noreferrer">
+                  <FaLinkedin />
                 </a>
               </li>
             </ul>
