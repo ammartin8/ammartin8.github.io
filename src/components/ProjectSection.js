@@ -7,22 +7,23 @@ import musicLandingSite from "../images/techDocSiteFinal.JPG";
 import letsEatAppPic from "../images/letsEatApp_crop.JPG";
 import tableaudatabreach from "../images/tableau_main_mini.PNG";
 import moreProjects from "../images/placeimg_864_576_tech.jpg";
+import bookkeep_pic from "../images/bookkeeping_portfolio_pic_664_374.PNG"
 
-let projectlink1 = "http://amahmartin.me/jt-travel-product-landing-page/";
+let projectlink1 = "https://www.kendrickwilliamsgroup.com/";
 let projectlink2 = "https://amahmartin.me/photography-portfolio";
 let projectlink3 = "http://amahmartin.me/technical-doc-page/";
 let projectlink4 = "https://github.com/ammartin8/lets-eat-app";
 let projectlink5 = "https://public.tableau.com/views/HealthcareDataBreachesintheUnitedStates/DataBreaches?:language=en&:display_count=y&:origin=viz_share_link"
 let projectlink6 = "https://github.com/ammartin8";
 
-let projecttitle1 = "Japan Travel Agency Landing Page";
+let projecttitle1 = "Kendrick Williams Bookkeeping";
 let projecttitle2 = "Mellow A Photography Portfolio Site";
 let projecttitle3 = "Git Technical Documentation Page";
 let projecttitle4 = "Let's Eat! Restaurant App";
 let projecttitle5 = "Data Analysis on US Healthcare Data Breaches";
 let projecttitle6 = "More Projects";
 
-let projectdesc1 = "A Professional Web Responsive Product Landing Page using HTML, CSS, JavaScript";
+let projectdesc1 = "A professional business consulting website focused on attracting new clients for bookkeeping service";
 let projectdesc2 =
   "A Photography Portfolio Website built with Bootstrap, jQuery";
 let projectdesc3 =
@@ -46,7 +47,7 @@ function ProjectSection() {
       <Row className="d-flex" style={{ justifyContent: "center" }}>
         <Project
           projectlink={projectlink1}
-          projectimg={productLandingSite}
+          projectimg={bookkeep_pic}
           projecttitle={projecttitle1}
           projectdesc={projectdesc1}
         />
