@@ -17,12 +17,10 @@ function CalltoAction() {
         I aspire to work for an organization 
         that is mission-driven and values growth, an honest-work culture, 
         and meaningful work. <br /><br />
-        Interested in learning more about me or talking about data and code? <br />
-        Let's Connect!
+        Do you need assistance in gathering actionable insights about your business, looking for ways to further automate data processes, or build a better business brand?<br />
         </p>
-        <p style={{ fontWeight: "600" }}>ammartin8842@gmail.com</p>
-        <a href="mailto:ammartin8842@gmail.com">
-          <FaEnvelope style={{ fontSize: "1.8em" }} />
+        <a href="mailto:ammartin8842@gmail.com" className="project-button" alignItems="center">
+          Get in Touch
         </a>
       </Row>
     </Container>

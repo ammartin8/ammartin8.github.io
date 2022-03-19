@@ -28,7 +28,7 @@ function Header() {
           <div className="d-flex hero-content-section">
             <h1 className="">
               <span style={{ fontWeight: "bold", color: "#3B1858" }}>
-                HELLO.&nbsp;
+                HELLO WORLD.&nbsp;
               </span>
               <span style={{ fontWeight: "bold", color: "#D7684A" }}>
                 MY NAME <br /> IS AMAH.

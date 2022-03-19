@@ -18,30 +18,28 @@ function Footer() {
     <>
       <Container
         id="upperFooterSection"
-        className="upper-footer-container m-0"
-        style={{ justifyContent: "center", maxWidth: "100vw" }}
+        className="upper-footer-container m-0 d-flex"
+        style={{ justifyContent: "center", flexDirection:"column", maxWidth: "100vw" }}
       >
-        <Row style={{ justifyContent: "flex-end" }}>
-          <a href="#root" style={{ color: "rgb(236, 207, 207)" }}>
+        <Row style={{justifyContent: "flex-end"}}>
+          <a href="#root" style={{ color: "rgb(236, 207, 207)", width: "1em"}}>
             <FaChevronUp style={{ fontSize: "1.5em" }} />
           </a>
         </Row>
         <Row
           className="text-center"
           style={{
-            justifyContent: "center",
             flexDirection: "column",
             alignItems: "center",
           }}
         >
-          <img className="brand-logo" src={brandLogo} alt="Brand Logo"/>
+          <img src={brandLogo} alt="Brand Logo" style={{width:"6em"}}/>
           <p style={{paddingTop: "1em"}}>Building creative solutions through data and software development, one day at a time.</p>
         </Row>
-        <Row style={{ justifyContent: "center" }}>
+        <Row className="d-flex" style={{justifyContent: "center"}}>
           <IconContext.Provider value={{ className: "social-icons" }}>
             <ul
-              className="d-flex social-icon-list"
-              style={{ flexDirection: "row" }}
+              className="social-icon-list d-flex"
             >
               <li>
                 <a href="https://twitter.com/amuzen22" target="_blank" rel="noopener noreferrer">
@@ -75,7 +73,7 @@ function Footer() {
           <p>Crafted with {<FaHeart />} by Me</p>
         </Row>
         <Row style={{ justifyContent: "center" }}>
-          <p>{<FaCopyright />} 2020</p>
+          <p>{<FaCopyright />} 2022</p>
         </Row>
         <Row style={{ justifyContent: "center" }}>
           <p>

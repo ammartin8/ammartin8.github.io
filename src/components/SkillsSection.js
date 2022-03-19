@@ -1,35 +1,60 @@
 import React, { Component } from "react";
 import Skill from "./Skill";
-import { Container } from "react-bootstrap";
+import { Accordion, Container, Row } from "react-bootstrap";
 import {
   FaCode, FaChartLine, FaDatabase
 } from "react-icons/fa";
 
-let dataContent = [
-  "Data Analysis",
-  "Data Visualization",
-  "Statistical Analysis Software (SAS)",
-  "Geographical Information Systems",
-  "(QGIS & ArcGIS)",
-];
-let devContent = [
-  "React JS",
-  "HTML, CSS, Javascript",
-  "Bootstrap Framework",
-  "Figma",
-  "JQuery",
-  "Git",
-  "Github"
-];
-let backEndContent = [
-  "SQL",
-  "REST APIs",
+let languageContent = [
   "Python",
-  "Node JS"
+  "SQL",
+  "M Query",
+  "DAX",
+  "React",
+  "HTML, CSS, JavaScript",
+  "jQuery"
 ];
-let dataListItems = dataContent.map((item) => <li>{item}</li>);
-let devListItems = devContent.map((item) => <li>{item}</li>);
-let backEndListItems = backEndContent.map((item) => <li>{item}</li>);
+let databaseContent = [
+  "PostgreSQL",
+  "SQLite",
+  "Oracle",
+  "IMB Db2 Cloud",
+  "Redis"
+];
+let toolsContent = [
+  "Anancoda",
+  "Jupyter Notebook",
+  "Microsoft Power BI",
+  "Git",
+  "GitHub",
+  "Statistical Analysis Software (SAS)",
+  "Toad Data Point & Oracle",
+  "Microsoft Databricks",
+  "Azure DevOps",
+  "Power Query",
+  "CRM Storefront",
+  "Visual Studio Code",
+  "Tableau",
+  "Figma"
+];
+
+let softSkillContent = [
+  "Data Analysis",
+  "Data Quality Assurance",
+  "Agile Methodology",
+  "Technical Writing",
+  "Automation",
+  "Project Management",
+  "Teamwork",
+  "Problem Solving",
+  "Troubleshooting",
+  "Customer Service"
+];
+
+let dataLanguages = languageContent.map((item) => <li style={{fontSize: ".9em"}}>{item}</li>);
+let databaseList = databaseContent.map((item) => <li style={{fontSize: ".9em"}}>{item}</li>);
+let toolsList = toolsContent.map((item) => <li style={{fontSize: ".9em"}}>{item}</li>);
+let softSkillList = softSkillContent.map((item) => <li style={{fontSize: ".9em"}}>{item}</li>);
 
 let dataProjectContent = [
   "Data Visualization",
@@ -49,9 +74,9 @@ let backEndProjects = [
   "Website and API data Integrations",
 ];
 
-let dataProjectItems = dataProjectContent.map((item) => <li>{item}</li>);
-let devProjectItems = devProjectContent.map((item) => <li>{item}</li>);
-let backEndItems = backEndProjects.map((item) => <li>{item}</li>);
+let dataProjectItems = dataProjectContent.map((item) => <li style={{fontSize: ".9em"}}>{item}</li>);
+let devProjectItems = devProjectContent.map((item) => <li style={{fontSize: ".9em"}}>{item}</li>);
+let backEndItems = backEndProjects.map((item) => <li style={{fontSize: ".9em"}}>{item}</li>);
 
 class SkillsSection extends Component {
   render() {
@@ -60,29 +85,45 @@ class SkillsSection extends Component {
         <Container id="skillSection"
           className="d-flex flex-wrap mx-auto px-0 my-0 "
           style={{
-            minWidth: "100%",
             justifyContent: "center",
-            alignItems: "center",
+            alignItems: "center"
           }}
         >
+
+      <Row style={{ justifyContent: "center"}}>
+        <p style={{ textAlign: "center", fontSize: "1.5em"}}>Skills</p>
+      </Row>
+
+          <Accordion>
           <Skill
-            header={"Data & Business Analytics"}
-            content={dataListItems}
+            header={"Programming Languages, Frameworks & Libraries"}
+            content={dataLanguages}
             projects={dataProjectItems}
             imageIcon={<FaChartLine />}
+            eventKey={0}
           />
           <Skill
-            header={"Front-End Development"}
-            content={devListItems}
+            header={"Databases"}
+            content={databaseList}
             projects={devProjectItems}
             imageIcon={<FaCode />}
+            eventKey={1}
           />
           <Skill
-            header={"Back-End Development"}
-            content={backEndListItems}
+            header={"Tools & Systems"}
+            content={toolsList}
             projects={backEndItems}
             imageIcon={<FaDatabase />}
+            eventKey={2}
           />
+          <Skill
+            header={"Interpersonal Skills"}
+            content={softSkillList}
+            projects={backEndItems}
+            imageIcon={<FaDatabase />}
+            eventKey={3}
+          />
+          </Accordion>
         </Container>
       </>
     );
