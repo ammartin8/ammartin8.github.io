@@ -1,35 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.f0228365.chunk.css",
-    "main.js": "/static/js/main.cb9cd45a.chunk.js",
-    "main.js.map": "/static/js/main.cb9cd45a.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.f3f540e9.js",
-    "runtime-main.js.map": "/static/js/runtime-main.f3f540e9.js.map",
-    "static/css/2.829c9cb5.chunk.css": "/static/css/2.829c9cb5.chunk.css",
-    "static/js/2.ee0a8021.chunk.js": "/static/js/2.ee0a8021.chunk.js",
-    "static/js/2.ee0a8021.chunk.js.map": "/static/js/2.ee0a8021.chunk.js.map",
+    "main.css": "/static/css/main.7f7d3cb0.css",
+    "main.js": "/static/js/main.eed249e2.js",
+    "static/media/hero-bkg2.png": "/static/media/hero-bkg2.30518eae41d0458e9c7e.png",
+    "static/media/pro-land-page.png": "/static/media/pro-land-page.59d374148b7f208cd76e.png",
+    "static/media/tableau_main_mini.PNG": "/static/media/tableau_main_mini.2feac1f4467b991a779e.PNG",
+    "static/media/bookkeeping_portfolio_pic_664_374.PNG": "/static/media/bookkeeping_portfolio_pic_664_374.285913c7adb6521887fc.PNG",
+    "static/media/placeimg_864_576_tech.jpg": "/static/media/placeimg_864_576_tech.8e5032cfdf7ba9a03062.jpg",
+    "static/media/profile_pic.png": "/static/media/profile_pic.5e0348a7e07a0a7a2832.png",
+    "static/media/techDocSiteFinal.JPG": "/static/media/techDocSiteFinal.3826c69b5c861a2995f3.JPG",
+    "static/media/us_census_map.PNG": "/static/media/us_census_map.c4f144e14d67c27a7a06.PNG",
+    "static/media/letsEatApp_crop.JPG": "/static/media/letsEatApp_crop.2b922e5fab07b7167cee.JPG",
+    "static/media/brand_logo.svg": "/static/media/brand_logo.ae7332cb8b1d422b7a8d256afdc41d3e.svg",
     "index.html": "/index.html",
-    "precache-manifest.9a6b81f63dc620486784c019e29f2062.js": "/precache-manifest.9a6b81f63dc620486784c019e29f2062.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.829c9cb5.chunk.css.map": "/static/css/2.829c9cb5.chunk.css.map",
-    "static/css/main.f0228365.chunk.css.map": "/static/css/main.f0228365.chunk.css.map",
-    "static/js/2.ee0a8021.chunk.js.LICENSE.txt": "/static/js/2.ee0a8021.chunk.js.LICENSE.txt",
-    "static/media/bookkeeping_portfolio_pic_664_374.PNG": "/static/media/bookkeeping_portfolio_pic_664_374.3065546d.PNG",
-    "static/media/brand_logo.svg": "/static/media/brand_logo.a815ab77.svg",
-    "static/media/App.css": "/static/media/hero-bkg2.10a5b29c.png",
-    "static/media/letsEatApp_crop.JPG": "/static/media/letsEatApp_crop.da4516fa.JPG",
-    "static/media/photoPortfolioSite.png": "/static/media/photoPortfolioSite.6303fe27.png",
-    "static/media/placeimg_864_576_tech.jpg": "/static/media/placeimg_864_576_tech.1fc691a8.jpg",
-    "static/media/pro-land-page.png": "/static/media/pro-land-page.797c317d.png",
-    "static/media/profile_pic.png": "/static/media/profile_pic.8c3ebf3a.png",
-    "static/media/tableau_main_mini.PNG": "/static/media/tableau_main_mini.969402cf.PNG",
-    "static/media/techDocSiteFinal.JPG": "/static/media/techDocSiteFinal.550331d0.JPG"
+    "main.7f7d3cb0.css.map": "/static/css/main.7f7d3cb0.css.map",
+    "main.eed249e2.js.map": "/static/js/main.eed249e2.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.f3f540e9.js",
-    "static/css/2.829c9cb5.chunk.css",
-    "static/js/2.ee0a8021.chunk.js",
-    "static/css/main.f0228365.chunk.css",
-    "static/js/main.cb9cd45a.chunk.js"
+    "static/css/main.7f7d3cb0.css",
+    "static/js/main.eed249e2.js"
   ]
 }
