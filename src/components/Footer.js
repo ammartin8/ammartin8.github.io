@@ -27,7 +27,7 @@ function Footer() {
           </a>
         </Row>
         <Row
-          className="text-center"
+          className="text-center d-flex"
           style={{
             flexDirection: "column",
             alignItems: "center",
@@ -36,10 +36,11 @@ function Footer() {
           <img src={brandLogo} alt="Brand Logo" style={{width:"6em"}}/>
           <p style={{paddingTop: "1em"}}>Building creative solutions through data and software development, one day at a time.</p>
         </Row>
-        <Row className="d-flex" style={{justifyContent: "center"}}>
-          <IconContext.Provider value={{ className: "social-icons" }}>
+        <Row className="d-flex text-center" style={{justifyContent: "center"}}>
+          <IconContext.Provider className="d-flex" value={{ className: "social-icons" }} style={{justifyContent: "center"}}>
             <ul
               className="social-icon-list d-flex"
+              style={{justifyContent: "center"}}
             >
               <li>
                 <a href="https://twitter.com/amuzen22" target="_blank" rel="noopener noreferrer">
@@ -62,21 +63,22 @@ function Footer() {
       </Container>
       <Container
         id="lowerFooterSection"
-        className="lower-footer-container m-0 p-1"
+        className="lower-footer-container m-0 p-1 d-flex"
         style={{
           justifyContent: "center",
           maxWidth: "100vw",
           alignItems: "center",
+          flexDirection: "column"
         }}
       >
-        <Row style={{ justifyContent: "center" }}>
-          <p>Crafted with {<FaHeart />} by Me</p>
+        <Row className="d-flex" style={{ justifyContent: "center" }}>
+          <p style={{ justifyContent: "center", textAlign: "center"}}>Crafted with {<FaHeart />} by Me</p>
         </Row>
         <Row style={{ justifyContent: "center" }}>
-          <p>{<FaCopyright />} 2022</p>
+          <p style={{ justifyContent: "center", textAlign: "center"}}>{<FaCopyright />} 2022</p>
         </Row>
         <Row style={{ justifyContent: "center" }}>
-          <p>
+          <p style={{ justifyContent: "center", textAlign: "center"}}>
             Made with {<FaReact />} React & {<FaBootstrap />} Bootstrap{" "}
           </p>
         </Row>
