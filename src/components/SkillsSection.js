@@ -2,17 +2,22 @@ import React, { Component } from "react";
 import Skill from "./Skill";
 import { Accordion, Container, Row } from "react-bootstrap";
 import {
-  FaCode, FaChartLine, FaDatabase
+  FaCode, FaTools, FaDatabase, FaRegHandshake
 } from "react-icons/fa";
 
 let languageContent = [
   "Python",
+  "Pandas Python Library", 
+  "NumPy Python Library",
+  "Seaborn Python Library",
+  "Matplot Lib Python Library",
   "SQL",
+  "PySpark",
   "M Query",
   "DAX",
   "React",
   "HTML, CSS, JavaScript",
-  "jQuery"
+  "jQuery"  
 ];
 let databaseContent = [
   "PostgreSQL",
@@ -40,10 +45,12 @@ let toolsContent = [
 
 let softSkillContent = [
   "Data Analysis",
+  "Translating Business Requirements into Technical",
+  "Agile Methodology",
+  "Relationship Development with Stakeholders & Business Partners",
   "Data Quality Assurance",
   "Agile Methodology",
   "Technical Writing",
-  "Automation",
   "Project Management",
   "Teamwork",
   "Problem Solving",
@@ -91,7 +98,7 @@ class SkillsSection extends Component {
         >
 
       <Row style={{ justifyContent: "center"}}>
-        <p style={{ textAlign: "center", fontSize: "1.5em"}}>Skills</p>
+        <p style={{ textAlign: "center", fontSize: "1.5em"}}>Technical & Interpersonal Skills</p>
       </Row>
 
           <Accordion>
@@ -99,28 +106,28 @@ class SkillsSection extends Component {
             header={"Programming Languages, Frameworks & Libraries"}
             content={dataLanguages}
             projects={dataProjectItems}
-            imageIcon={<FaChartLine />}
+            imageIcon={<FaCode />}
             eventKey={0}
           />
           <Skill
             header={"Databases"}
             content={databaseList}
             projects={devProjectItems}
-            imageIcon={<FaCode />}
+            imageIcon={<FaDatabase />}
             eventKey={1}
           />
           <Skill
             header={"Tools & Systems"}
             content={toolsList}
             projects={backEndItems}
-            imageIcon={<FaDatabase />}
+            imageIcon={<FaTools />}
             eventKey={2}
           />
           <Skill
             header={"Interpersonal Skills"}
             content={softSkillList}
             projects={backEndItems}
-            imageIcon={<FaDatabase />}
+            imageIcon={<FaRegHandshake />}
             eventKey={3}
           />
           </Accordion>

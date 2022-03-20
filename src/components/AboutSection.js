@@ -1,6 +1,8 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import profileimg from "../images/profile_pic.png"
+import { Container, Row, Col, Button } from "react-bootstrap";
+import { icons } from "react-icons/lib";
+import profileimg from "../images/profile_pic.png";
+import { FaCloudDownloadAlt } from "react-icons/fa";
 
 
 function AboutSection() {
@@ -14,7 +16,6 @@ function AboutSection() {
         <p>About Me</p>
         <h5 style={{fontWeight: "400"}} className="mb-5">I’m a <b>Data Specialist</b> with 5+ years of experience in <b>data analysis</b>, <b>data visualization</b> as well as <b>Python and SQL programming</b>. I thrive in environments that allow me to take on the challenge of building solutions to solve inefficient processes and gather business intelligence that reveal challenges and guide business success for small, medium and large organizations. 
 <br /><br />I am inspired by the potential to think deeply about a problem or process via data to develop solutions or optimize systems. With my openness to listening to others and adaptability, I find great satisfaction in working with a team to develop creative and useful solutions.
-
         </h5>
       </Row>
       <Row style={{ flexDirection: "row", alignItems: "left" }}>
@@ -30,10 +31,15 @@ function AboutSection() {
         myself and others about our world and how I can make positive 
         contributions towards it, as well as my ambition to expand my 
         personal growth and curiosity.
-            
             </p>
+        <Row>
+          {/* <a href="" className="resume-button" alignItems="center">
+            <FaCloudDownloadAlt style={{width:"2em"}}/>Download My Resume
+          </a> */}
+        </Row>
         </Col>
       </Row>
+      
     </Container>
   );
 }
