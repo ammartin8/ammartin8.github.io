@@ -1,7 +1,6 @@
 import React from "react";
 
 import { Container, Row } from "react-bootstrap";
-import { FaEnvelope } from "react-icons/fa";
 
 function CalltoAction() {
   return (

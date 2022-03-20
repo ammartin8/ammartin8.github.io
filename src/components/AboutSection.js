@@ -1,7 +1,7 @@
 import React from "react";
-import { Container, Row, Col, Button } from "react-bootstrap";
-import { icons } from "react-icons/lib";
+import { Container, Row, Col } from "react-bootstrap";
 import profileimg from "../images/profile_pic.png";
+import pdf from "../files/engineer_resume_amahmartin.pdf";
 import { FaCloudDownloadAlt } from "react-icons/fa";
 
 
@@ -33,9 +33,9 @@ function AboutSection() {
         personal growth and curiosity.
             </p>
         <Row>
-          {/* <a href="" className="resume-button" alignItems="center">
+          <a href={pdf} download className="resume-button" alignItems="center">
             <FaCloudDownloadAlt style={{width:"2em"}}/>Download My Resume
-          </a> */}
+          </a>
         </Row>
         </Col>
       </Row>
