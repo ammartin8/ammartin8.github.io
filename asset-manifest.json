@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.931f93d1.css",
-    "main.js": "/static/js/main.5e51f0b4.js",
-    "static/media/hero-bkg2.png": "/static/media/hero-bkg2.30518eae41d0458e9c7e.png",
+    "main.css": "/static/css/main.3925e3a2.css",
+    "main.js": "/static/js/main.99af4392.js",
+    "static/media/hero-bkg3.png": "/static/media/hero-bkg3.b24130addf2b3c9aeee6.png",
     "static/media/pro-land-page.png": "/static/media/pro-land-page.59d374148b7f208cd76e.png",
-    "static/media/engineer_resume_amahmartin.pdf": "/static/media/engineer_resume_amahmartin.2b6e3c3ac973225fd082.pdf",
     "static/media/tableau_main_mini.PNG": "/static/media/tableau_main_mini.2feac1f4467b991a779e.PNG",
+    "static/media/about_img.png": "/static/media/about_img.eb82160b4e4250d475cc.png",
     "static/media/bookkeeping_portfolio_pic_664_374.PNG": "/static/media/bookkeeping_portfolio_pic_664_374.285913c7adb6521887fc.PNG",
     "static/media/placeimg_864_576_tech.jpg": "/static/media/placeimg_864_576_tech.8e5032cfdf7ba9a03062.jpg",
-    "static/media/profile_pic.png": "/static/media/profile_pic.5e0348a7e07a0a7a2832.png",
     "static/media/techDocSiteFinal.JPG": "/static/media/techDocSiteFinal.3826c69b5c861a2995f3.JPG",
     "static/media/us_census_map.PNG": "/static/media/us_census_map.c4f144e14d67c27a7a06.PNG",
+    "static/media/Data_Engineer_Amah_Martin.pdf": "/static/media/Data_Engineer_Amah_Martin.732ba5192ce58334c296.pdf",
     "static/media/letsEatApp_crop.JPG": "/static/media/letsEatApp_crop.2b922e5fab07b7167cee.JPG",
     "static/media/brand_logo.svg": "/static/media/brand_logo.ae7332cb8b1d422b7a8d256afdc41d3e.svg",
     "index.html": "/index.html",
-    "main.931f93d1.css.map": "/static/css/main.931f93d1.css.map",
-    "main.5e51f0b4.js.map": "/static/js/main.5e51f0b4.js.map"
+    "main.3925e3a2.css.map": "/static/css/main.3925e3a2.css.map",
+    "main.99af4392.js.map": "/static/js/main.99af4392.js.map"
   },
   "entrypoints": [
-    "static/css/main.931f93d1.css",
-    "static/js/main.5e51f0b4.js"
+    "static/css/main.3925e3a2.css",
+    "static/js/main.99af4392.js"
   ]
 }
