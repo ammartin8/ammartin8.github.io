@@ -12,6 +12,7 @@ import {
   FaBootstrap,
   FaLinkedin
 } from "react-icons/fa";
+import CurrentYear from './CurrentYear';
 
 function Footer() {
   return (
@@ -43,11 +44,6 @@ function Footer() {
               style={{justifyContent: "center"}}
             >
               <li>
-                <a href="https://twitter.com/amuzen22" target="_blank" rel="noopener noreferrer">
-                  <FaTwitter />
-                </a>
-              </li>
-              <li>
                 <a href="https://github.com/ammartin8" target="_blank" rel="noopener noreferrer">
                   <FaGithub />
                 </a>
@@ -75,7 +71,7 @@ function Footer() {
           <p style={{ justifyContent: "center", textAlign: "center"}}>Crafted with {<FaHeart />} by Me</p>
         </Row>
         <Row style={{ justifyContent: "center" }}>
-          <p style={{ justifyContent: "center", textAlign: "center"}}>{<FaCopyright />} 2022</p>
+          <p style={{ justifyContent: "center", textAlign: "center"}}>{<FaCopyright />} <CurrentYear /></p>
         </Row>
         <Row style={{ justifyContent: "center" }}>
           <p style={{ justifyContent: "center", textAlign: "center"}}>

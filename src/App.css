@@ -10,7 +10,7 @@ html {
 }
 
 body {
-    background-color: rgb(229, 201, 241, .25);
+    background-color: rgb(250, 250, 246, .25);
 }
 
 div,
@@ -69,15 +69,16 @@ a:hover {
 }
 
 .main-header-container {
-    background-image: url(./images/hero-bkg2.png);
-    background-size: cover, cover;
+    background-image: url(./images/hero-bkg3.png);
+    background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
     min-width: 100%;
     min-height: 80vh;
 }
 
 .subheader-container {
-    background-color: rgb(136, 61, 108, .80);
+    background-color: rgba(234,219,220, .74);
     border-radius: 5px 5px;
     max-width: 500px;
 }
@@ -98,7 +99,6 @@ a:hover {
 
 .chevronIcon {
     animation: hoverIt 3s infinite;
-    color: rgb(236, 207, 207);
 }
 
 @keyframes hoverIt {
@@ -123,6 +123,7 @@ a:hover {
 
 .nav-link {
     min-width: 6em;
+    color: #ffffff;
 }
 
 /*Project Styling*/
@@ -153,7 +154,7 @@ a:hover {
 .resume-button {
     width: 15em;
     height: 2.5em;
-    background-color: #d7684a;
+    background-color: #6C757D;
     color: #fff;
     border-radius: 5px 5px;
     text-decoration: none;
@@ -165,7 +166,7 @@ a:hover {
 .resume-button:hover {
     width: 15em;
     height: 2.5em;
-    background-color: #e28a71;
+    background-color: #343A40;
     color: #fff;
     border-radius: 5px 5px;
     text-decoration: none;
@@ -191,7 +192,7 @@ a:hover {
 }
 
 .accordion-button {
-    background-color: rgb(53, 17, 87);
+    background-color: #343A40;
     color: #fff;  
 }
 

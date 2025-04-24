@@ -12,24 +12,24 @@ function NavbarHeader() {
         className="d-flex"
         style={{
           flexDirection: "row",
-          backgroundColor: " rgba(215, 104, 74)",
+          backgroundColor: "rgba(0,0,0,.65)",
           width: "100%",
-          justifyContent: "space-between"
+          justifyContent: "space-between",
         }}
       >
         <Col xs={6} style={{ flexGrow: "2" }}>
-          <Navbar.Brand href="#home" >
+          <Navbar.Brand href="#home" style={{color: "#fff"}}>
             <img className="brand-logo" src={brandLogo} alt="Brand Logo" />
             Amah Martin
           </Navbar.Brand>
         </Col>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav" style={{ justifyContent: "flex-end" }}>
-          <Col xs={6} style={{alignSelf: "flex-end"}}>
-            <Nav style={{ justifyContent: "flex-end", textAlign: "center" }}>
-              <Nav.Link href="#portfolioSection" className="nav-link">Portfolio</Nav.Link>
-              <Nav.Link href="#aboutSection" className="nav-link">About</Nav.Link>
-              <Nav.Link href="#hireMe" className="nav-link">Hire Me</Nav.Link>
+          <Col xs={6} style={{alignSelf: "flex-end",color: "#ffffff"}}>
+            <Nav style={{ justifyContent: "flex-end", textAlign: "center"}}>
+              <Nav.Link href="#portfolioSection" className="nav-link" style={{color:"#fff"}}>Portfolio</Nav.Link>
+              <Nav.Link href="#aboutSection" className="nav-link" style={{color:"#fff"}}>About</Nav.Link>
+              <Nav.Link href="#hireMe" className="nav-link" style={{color:"#fff"}}>Hire Me</Nav.Link>
             </Nav>
           </Col>
         </Navbar.Collapse>

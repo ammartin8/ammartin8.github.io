@@ -5,6 +5,12 @@ import {
   FaCode, FaTools, FaDatabase, FaRegHandshake
 } from "react-icons/fa";
 
+let dataEngineerContent = [
+"ETL pipelines",
+"data warehousing",
+"cloud platforms (Azure, Google Cloud)"
+];
+
 let languageContent = [
   "Python",
   "Pandas Python Library", 
@@ -20,27 +26,27 @@ let languageContent = [
   "jQuery"  
 ];
 let databaseContent = [
-  "PostgreSQL",
-  "SQLite",
-  "Oracle",
-  "IMB Db2 Cloud",
-  "Redis"
+"PL/SQL (Oracle)",
+"PostgreSQL",
+"SQLite"
 ];
 let toolsContent = [
-  "Anancoda",
-  "Jupyter Notebook",
-  "Microsoft Power BI",
-  "Git",
-  "GitHub",
-  "Statistical Analysis Software (SAS)",
-  "Toad Data Point & Oracle",
-  "Microsoft Databricks",
-  "Azure DevOps",
-  "Power Query",
-  "CRM Storefront",
-  "Visual Studio Code",
-  "Tableau",
-  "Figma"
+"Toad Data Point",
+"Visual Studio Code",
+"Power BI",
+"Microsoft Azure Cloud Services",
+"Google Cloud Platform",
+"Terraform",
+"Docker",
+"Databricks",
+"SQL Server Management System",
+"Git",
+"GitHub",
+"Jupyter Notebooks",
+"Anaconda",
+"Statistical Analysis Software (SAS)",
+"Tableau",
+"Figma"
 ];
 
 let softSkillContent = [
@@ -49,7 +55,6 @@ let softSkillContent = [
   "Agile Methodology",
   "Relationship Development with Stakeholders & Business Partners",
   "Data Quality Assurance",
-  "Agile Methodology",
   "Technical Writing",
   "Project Management",
   "Teamwork",
@@ -58,6 +63,7 @@ let softSkillContent = [
   "Customer Service"
 ];
 
+let dataEngineering = dataEngineerContent.map((item) => <li style={{fontSize: ".9em"}}>{item}</li>);
 let dataLanguages = languageContent.map((item) => <li style={{fontSize: ".9em"}}>{item}</li>);
 let databaseList = databaseContent.map((item) => <li style={{fontSize: ".9em"}}>{item}</li>);
 let toolsList = toolsContent.map((item) => <li style={{fontSize: ".9em"}}>{item}</li>);

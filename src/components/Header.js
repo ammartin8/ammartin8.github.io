@@ -27,10 +27,10 @@ function Header() {
         >
           <div className="d-flex hero-content-section">
             <h1 className="">
-              <span style={{ fontWeight: "bold", color: "#3B1858" }}>
-                HELLO WORLD.&nbsp;
+              <span style={{ fontWeight: "bold", color: "#6C757D" }}>
+                HELLO, WORLD.&nbsp;
               </span>
-              <span style={{ fontWeight: "bold", color: "#D7684A" }}>
+              <span style={{ fontWeight: "bold", color: "#343A40" }}>
                 MY NAME <br /> IS AMAH.
               </span>
             </h1>
@@ -38,7 +38,7 @@ function Header() {
           <div className="">
             <p
               className="my-0"
-              style={{ fontSize: "1.5em", fontWeight: "600", color: "#3B1858" }}
+              style={{ fontSize: "1.5em", fontWeight: "600", color: "#343A40" }}
             >
               Welcome to my portfolio site. <br />{" "}
             </p>
@@ -55,7 +55,7 @@ function Header() {
                   style={{
                     fontSize: "1.8em",
                     fontWeight: "600",
-                    color: "#D7684A",
+                    color: "#6C757D",
                   }}
                 />
               </a>
