@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import profileimg from "../images/about_img.png";
-import pdf from "../files/Data_Engineer_Amah_Martin.pdf";
+import pdf from "../files/Data_Engineer_Resume_Amah_Martin.pdf";
 import { FaCloudDownloadAlt } from "react-icons/fa";
 
 
