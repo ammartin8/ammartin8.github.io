@@ -1,25 +1,23 @@
-# Amah Martin | Data Engineer Professional | Business Intelligence Specialist
+# Amah Martin | Data Analytics Engineer
+> **Business Intelligence Specialist** | Scalable Pipelines & Data Architecture
 
-***
+### 🔗 Connect
+- **[🌐 Live Website](https://www.amahmartin.me)**
+- **[💼 LinkedIn](https://linkedin.com/in/amahmartin)**
+- **[🐙 GitHub Profile](https://github.com/ammartin8)**
 
-> Author: Amah Martin
->
-> Last Updated: 04-24-2025
+---
 
-## Table of Contents
+### 📖 About Me
+I am a Data Analytics Engineer with 7+ years of experience in modern data workflows (GCP/Azure, dbt, Python). My work focuses on building scalable pipelines that transform raw data into actionable business intelligence. This website serves as my professional portfolio, showcasing my technical skills and engineering expertise to recruiters and partners.
 
-* Project Summary
-* Technical Summary
+### 💻 Tech Stack
+**Web Development:** React JS, Bootstrap, GitHub Pages  
+**Data Engineering:** Python, SQL, dbt, Airflow, GCP, Azure, Terraform  
+**Visualization:** Power BI, Tableau
 
-## Project Summary
+### 📁 Project Description
+This repository hosts the source code for my personal development website. It is designed to present my skill assets, projects, and professional journey. The complete live site is available at [AmahMartin.me](https://www.amahmartin.me).
 
-This is a React application built to display my skill assests, projects and more. The complete website is located at [https://www.amahmartin.me](https://www.amahmartin.me)
-
-## Technical Summary
-
-The following technologies are used to build this website:
-
-* React JS
-  * This project was bootstrapped with [Create React App](https://github.com/facebook/create*react*app).
-* Bootstrap
-* GitHub Pages
+---
+*Last Updated: 05-25-2026*
