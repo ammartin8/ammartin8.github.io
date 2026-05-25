@@ -12,7 +12,7 @@ function NavbarHeader() {
         className="d-flex"
         style={{
           flexDirection: "row",
-          backgroundColor: "rgba(0,0,0,.65)",
+          backgroundColor: "#611f7c",
           width: "100%",
           justifyContent: "space-between",
         }}

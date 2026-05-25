@@ -69,7 +69,7 @@ a:hover {
 }
 
 .main-header-container {
-    background-image: url(./images/hero-bkg3.png);
+    background-image: url(./images/abstract_background.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -136,7 +136,7 @@ a:hover {
 .project-button {
     width: 8em;
     height: 2.5em;
-    background-color: rgb(59, 61, 61);
+    background-color: #611f7c;
     color: #fff;
     border-radius: 5px 5px;
     text-decoration: none;
@@ -146,7 +146,7 @@ a:hover {
 }
 
 .project-button:hover {
-    background-color: rgb(99, 98, 100);
+    background-color: #360f46;
     color: #fff;
 }
 
@@ -154,7 +154,7 @@ a:hover {
 .resume-button {
     width: 15em;
     height: 2.5em;
-    background-color: #6C757D;
+    background-color: #611f7c;
     color: #fff;
     border-radius: 5px 5px;
     text-decoration: none;
@@ -166,7 +166,7 @@ a:hover {
 .resume-button:hover {
     width: 15em;
     height: 2.5em;
-    background-color: #343A40;
+    background-color: #360f46;
     color: #fff;
     border-radius: 5px 5px;
     text-decoration: none;
@@ -192,7 +192,7 @@ a:hover {
 }
 
 .accordion-button {
-    background-color: #343A40;
+    background-color: #360f46;
     color: #fff;  
 }
 
@@ -215,14 +215,14 @@ a:hover {
 }
 
 .upper-footer-container {
-    background:
-        linear-gradient(180deg, rgb(59, 157, 218), rgb(51, 21, 134));
+    background: linear-gradient(180deg, rgb(59, 157, 218), rgb(51, 21, 134));
+    /* background-color: rgb(59, 61, 61); */
     color: rgb(245, 233, 233);
 }
 
 .lower-footer-container {
-    background:
-        linear-gradient(180deg, rgb(51, 21, 134), rgb(53, 17, 87));
+    background: linear-gradient(180deg, rgb(51, 21, 134), rgb(53, 17, 87));
+    /* background-color: rgb(59, 61, 61); */
     color: rgb(245, 233, 233);
 
 }

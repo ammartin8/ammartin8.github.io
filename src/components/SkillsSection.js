@@ -36,6 +36,7 @@ let toolsContent = [
 "Power BI",
 "Microsoft Azure Cloud Services",
 "Google Cloud Platform",
+"dbt",
 "Terraform",
 "Docker",
 "Databricks",
