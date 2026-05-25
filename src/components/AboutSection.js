@@ -23,8 +23,10 @@ function AboutSection() {
         </Col>
         <Col lg={8} style={{ flexDirection: "column", alignSelf:"center"}} className="my-3 px-5">
             <h4>Hello There!</h4>
-            <p>I am a Data Analytics Engineer with over 7 years of experience bridging the gap between complex business logic and scalable cloud infrastructure. My career began in public health as an Epidemiologist, where I mastered data integrity and compliance, before transitioning into full-stack Data Engineering at large-scale enterprises like Humana.
-              My mission is to move organizations from simply using data to actively building it for mid-to-large sized enterprises. I specialize in modern analytical engineering workflows, combining domain expertise with technical rigor to architect robust data platforms.
+            <p>Data Analytics Engineer specializing in modern data workflows (GCP/Azure, dbt, Python). 
+              I build scalable ETL pipelines and automate reporting to turn raw data into actionable business intelligence. 
+              With a background in high-integrity data analysis, I bring domain knowledge and specialized engineering expertise to organizations of all sizes. 
+              I am passionate about honest work cultures that value growth, open to connecting with Engineering Managers looking for hybrid candidates who understand both technical architecture and business value.
             </p>
             <p>
               <b>Core Expertise:</b>
