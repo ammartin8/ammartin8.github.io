@@ -111,12 +111,13 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 1 }}
         >
-          {/* Primary button - REACH OUT */}
+          {/* Primary button - DOWNLOAD RESUME */}
           <a
-            href="#contact-heading"
+            href="./Amah_Martin_Data_Analytics_Engineer.pdf"
+            download
             className="bg-[var(--accent)] text-[var(--bg-primary)] px-6 py-3 font-mono text-xs uppercase tracking-widest hover:bg-[var(--accent-muted)] transition-colors duration-300 focus:outline-none focus-visible:outline-2 focus-visible:outline-[var(--accent)] focus-visible:outline-offset-2"
           >
-            REACH OUT
+            DOWNLOAD RESUME
           </a>
 
           {/* Secondary button - VIEW WORK */}
