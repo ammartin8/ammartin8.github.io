@@ -44,7 +44,7 @@ export default function Hero() {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 0.6, ease: "easeOut" }}
-        className="relative z-10 flex flex-col justify-start pl-4 lg:pl-8 xl:pl-12 2xl:pl-16 pt-8 md:pt-12 lg:pt-16 pb-8"
+        className="relative z-10 flex flex-col justify-start pl-4 lg:pl-8 xl:pl-12 2xl:pl-16 pt-20 md:pt-24 lg:pt-28 pb-8"
       >
         {/* Top Label */}
         <motion.div
