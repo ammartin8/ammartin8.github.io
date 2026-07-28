@@ -33,10 +33,10 @@ export default function Hero() {
         className="absolute top-20 right-[15%] w-32 h-32 border-2 border-[var(--accent)] rounded-full rotate-12 float"
       />
       <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 0.08 }}
-        transition={{ duration: 1.5, delay: 0.4 }}
-        className="absolute bottom-20 left-[10%] w-24 h-24 bg-[var(--accent-muted)] rounded-full blur-xl float"
+        initial={{ opacity: 0, x: "-10%", y: "10%" }}
+        animate={{ opacity: 0.08, x: ["-10%", "10%", "-10%"], y: ["10%", "-10%", "10%"] }}
+        transition={{ duration: 3, delay: 0.4, repeat: Infinity, ease: "easeInOut" }}
+        className="absolute top-[50%] left-[50%] w-24 h-24 bg-[var(--accent-muted)] rounded-full blur-xl float"
       />
 
       {/* Main Content - Far left with minimal padding */}
