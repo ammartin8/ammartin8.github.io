@@ -3,7 +3,7 @@ import React from 'react';
 // Portfolio Content Data
 // Edit this file to customize your portfolio content
 
-export const RESUME_LINK = "/resume.pdf"; // Update with your actual resume PDF path
+export const RESUME_LINK = "/doc_assets/Amah_Martin_Data_Analytics_Engineer.pdf"; // Update with your actual resume PDF path
 
 export const heroContent = {
   name: "Amah Martin",
